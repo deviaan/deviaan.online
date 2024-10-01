@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../halloween_tile.png");
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.banner {
+	height: 150px;
+	width: 900px;
+	background: rgba(125, 125, 125, .45);
+	margin-bottom: 10px;
+	border-radius: 25px;
+}
+
+.banner-img {
+	display: block;
+	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.footer {
+	margin-top: 10px;
+}
+
+.main {
+	width: 900px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.no-sidebar {
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-sidebar {
+	width: 150px;
+	padding: 10px;
+	border-radius: 25px;
+	color: white;
+}
+
+.nav-sidebar ul {
+	list-style-position: inside;
+}
+
+.link-group {
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(100, 100, 100, 0.5);
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.link-group li {
+	list-style-type: none;
+	margin: 2px;
+}
+
+.link-group a {
+	color: white;
+}
+
+.nav-title {
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	border-color: white;
+}
+
+.posts {
+	max-width: 500px;
+	margin-bottom: 10px;
+}
+
+.no-sidebar .posts {
+	width: 80%;
+}
+
+.post {
+	background: rgba(255, 255, 255, 0.9);
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.post-title {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	margin-bottom: 5px;
+}
+
+.latest {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.update {
+	padding: 5px;
+	border-radius: 10px;
+	background: rgba(100, 100, 100, .5);
+	color: white;
+}
+
+.about-me {
+	background: rgba(100, 100, 100, .5);
+	color: white;
+	max-width: 85%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.about-me-table {
+	border-collapse: separate;
+	border-spacing: 5px 0;
+}
+
+.about-me-table th {
+	text-align: left;
+	marging-right: 2px;
+}
+
+#introduction p{
+	margin-top: 10px;
+}
