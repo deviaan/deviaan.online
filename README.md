@@ -1,2 +1,3 @@
 # deviaan.online
- Personal Website
+This repo just holds the completed version of my personal website.
+
