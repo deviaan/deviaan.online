@@ -8,6 +8,13 @@ body {
 	background-image: url("../halloween_tile.png");
 }
 
+.contains-text {
+	background: rgba(100, 100, 100, .5);
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+}
+
 .page {
 	width: 900px;
 	margin: 0 auto;
@@ -91,6 +98,10 @@ body {
 	margin-bottom: 10px;
 }
 
+.primary {
+	width: 80%;
+}
+
 .no-sidebar .posts {
 	width: 80%;
 }
@@ -141,4 +152,22 @@ body {
 
 #introduction p{
 	margin-top: 10px;
+}
+
+.stock-table {
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+}
+
+.stock-table th{
+	text-align: left;
+	margin-right: 2px;
+}
+
+.info-section {
+	margin-bottom: 15px;
+}
+
+.nowrap {
+	white-space: nowrap;
 }
