@@ -171,3 +171,8 @@ body {
 .nowrap {
 	white-space: nowrap;
 }
+
+
+.article-list a {
+	color: white;
+}
