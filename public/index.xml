@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deviaan - Online</title>
+    <link>https://deviaan.online/</link>
+    <description>Recent content on deviaan - Online</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2024 09:41:42 -0600</lastBuildDate>
+    <atom:link href="https://deviaan.online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update0</title>
+      <link>https://deviaan.online/updates/update0/</link>
+      <pubDate>Sun, 17 Nov 2024 09:41:42 -0600</pubDate>
+      <guid>https://deviaan.online/updates/update0/</guid>
+      <description>Text for the first update goes here</description>
+    </item>
+    <item>
+      <title>Third</title>
+      <link>https://deviaan.online/posts/third/</link>
+      <pubDate>Sat, 16 Nov 2024 12:25:33 -0600</pubDate>
+      <guid>https://deviaan.online/posts/third/</guid>
+      <description>My third post</description>
+    </item>
+    <item>
+      <title>Second</title>
+      <link>https://deviaan.online/posts/second/</link>
+      <pubDate>Sat, 16 Nov 2024 12:15:33 -0600</pubDate>
+      <guid>https://deviaan.online/posts/second/</guid>
+      <description>My second post</description>
+    </item>
+    <item>
+      <title>First</title>
+      <link>https://deviaan.online/posts/first/</link>
+      <pubDate>Sat, 16 Nov 2024 12:08:36 -0600</pubDate>
+      <guid>https://deviaan.online/posts/first/</guid>
+      <description>My first post</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://deviaan.online/about/</link>
+      <pubDate>Sat, 16 Nov 2024 11:38:08 -0600</pubDate>
+      <guid>https://deviaan.online/about/</guid>
+      <description>About Info about me goes here</description>
+    </item>
+  </channel>
+</rss>

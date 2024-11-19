@@ -1,0 +1,7 @@
+<div class="post-card">
+    <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h2>
+        <em class="date">{{ .Date | time.Format ":date_medium" }}</em>
+        <p>{{ .Summary }}</p>
+</div>

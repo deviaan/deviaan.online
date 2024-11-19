@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on deviaan - Online</title>
+    <link>https://deviaan.online/updates/</link>
+    <description>Recent content in Updates on deviaan - Online</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Nov 2024 09:41:42 -0600</lastBuildDate>
+    <atom:link href="https://deviaan.online/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update0</title>
+      <link>https://deviaan.online/updates/update0/</link>
+      <pubDate>Sun, 17 Nov 2024 09:41:42 -0600</pubDate>
+      <guid>https://deviaan.online/updates/update0/</guid>
+      <description>Text for the first update goes here</description>
+    </item>
+  </channel>
+</rss>

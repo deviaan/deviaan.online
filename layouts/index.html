@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div class="homepage">
+    <div class="posts">
+        {{ range first 5 (where .Site.RegularPages "Section" "posts").ByDate.Reverse }}
+            {{ partial "cards/posts.html" .}}
+        {{ end }}
+    </div>
+    <div class="updates">
+        <h3>Latest Changes</h3>
+        {{ range first 5 (where .Site.RegularPages "Section" "updates").ByDate.Reverse }}
+            {{ partial "cards/updates.html" .}}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
