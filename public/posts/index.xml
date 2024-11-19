@@ -6,28 +6,14 @@
     <description>Recent content in Posts on deviaan - Online</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Nov 2024 12:25:33 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://deviaan.online/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Third</title>
-      <link>https://deviaan.online/posts/third/</link>
-      <pubDate>Sat, 16 Nov 2024 12:25:33 -0600</pubDate>
-      <guid>https://deviaan.online/posts/third/</guid>
-      <description>My third post</description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://deviaan.online/posts/second/</link>
-      <pubDate>Sat, 16 Nov 2024 12:15:33 -0600</pubDate>
-      <guid>https://deviaan.online/posts/second/</guid>
-      <description>My second post</description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>https://deviaan.online/posts/first/</link>
-      <pubDate>Sat, 16 Nov 2024 12:08:36 -0600</pubDate>
-      <guid>https://deviaan.online/posts/first/</guid>
-      <description>My first post</description>
+      <title>Up and Running</title>
+      <link>https://deviaan.online/posts/up_and_running/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://deviaan.online/posts/up_and_running/</guid>
+      <description>My first post! I&amp;rsquo;m not sure if it&amp;rsquo;s a tradition, but in this one I just talk about why I wanted to make this and how I made it. Not really a tutorial, but more just picking reasons to do X over Y, along with links to resources that helped me get started!</description>
     </item>
   </channel>
 </rss>

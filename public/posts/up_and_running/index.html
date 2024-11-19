@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>deviaan - Online
+        
+    </title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <meta charset="UTf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="deviaan's personal homepage"/>
+    <link rel="icon" href="/images/icon.png" type="image/png"/>
+</head>
+    <body>
+        <div class="page">
+            <div class="header">
+    <a href="/">
+        <img 
+            class="banner-img" 
+            src="/images/banner.png"
+            alt="Site logo depicting an eye with blue fire around it."
+        />
+    </a>
+</div>
+            <nav class="menu">
+    <a href="/">Home</a>
+    <a href="/posts">Posts</a>
+    <a href="/about">About</a>
+</nav>
+            <main>
+                
+<article class="article">
+    <h1 id="up-and-running">Up and Running!</h1>
+<p>Well that wasn&rsquo;t so hard! After years&ndash;decades even&ndash;of wanting to set up a personal website, I&rsquo;ve finally done it! It&rsquo;s easier than ever with the only hard part being <em>actually</em> getting started. The whole thing is a bit wonky still, it&rsquo;ll probably take me a while to get it just right. That&rsquo;s the biggest thing I&rsquo;ve learned&ndash;don&rsquo;t wait for it to be just right. It&rsquo;s much more important to get whatever it is you want out there and work on it, than it is to get it perfect. I&rsquo;ve known that for years, I just could not internalize it.</p>
+<p>Take this post for example. In truth, I wasn&rsquo;t sure what to write about for my first post, so I just started putting words to the page and seeing what came out. Nothing amazing, to be sure, but still <em>something</em>. The most obvious thing to talk about here would be <em>why</em> I did this and <em>how</em> I did it. I have a feeling I won&rsquo;t have low hanging fruit for long, so I&rsquo;m going to pick it while I can!</p>
+<h3 id="why-not">Why not?</h3>
+<p>There&rsquo;s no real reason to make a personal website, especially in 2024, except that you just <em>want to</em>. For me, it&rsquo;s something I&rsquo;ve wanted to do ever since I first used the internet at my public library. It&rsquo;s a fun hobby that let&rsquo;s you express yourself in a way that is easily shared with others and, while I don&rsquo;t think many people will read this, I do like the idea of some random person finding something useful or just neat on here. I know that some of my favorite places online are just random, small websites made by people I&rsquo;ll never meet.</p>
+<p>That&rsquo;s not to say that I think you <em>should</em> make one&ndash;only if you want to. There&rsquo;s a lot to learn, and it can be annoying at times to get things to look the way you want them. I haven&rsquo;t even started thinking about making this thing phone friendly. Still, if you are a curious person I think making a personal website is a fine hobby to have!</p>
+<p>There&rsquo;s a fun spirit in the old-style web. Each site reflecting the personality and skills of the creator, crawling or surfing through them to find interesting things. It&rsquo;s harder to go viral, never mind to monetize, things like this&ndash;which is exactly the point. I wanted something that was just for fun, not a &ldquo;potential source of income&rdquo; or whatever. A true waste of time.</p>
+<h3 id="making-this-website">Making this website</h3>
+<p>There&rsquo;s a million different ways to get started. If you want something more comprehensive, I recommend taking a look at the guide at <a href="https://32bit.cafe/cyowebsite/">32 Bit Cafe</a>. They cover a ton of different options for your skill, time, and money. What I go over here is just what I chose to do, and why I chose to do it. I found that hearing about why people went the direction they did helped me a lot in picking my path through the web.</p>
+<h4 id="scope-and-hosting">Scope and hosting</h4>
+<p>At my day job, I&rsquo;m a backend developer. To me, this meant that my hobby site needed to be as simple as possible. I don&rsquo;t want to write endpoints or deal with databases for fun, when I do that all day already. I also knew I wanted to use as little JavaScript as possible&ndash;just good old HTML and CSS. My primary goal is just to have a fun site where I can just drop whatever I want. The simplest option for this, of course, would be to use an existing service, but I wanted to have more control over the website then a lot of these services allow. Key among these is my desire to have my own custom domain&ndash;because I think it&rsquo;s really cool&ndash;and to be able to grow or shrink the website based on whatever I want to do.</p>
+<p>Right away I had a few options:</p>
+<ol>
+<li>A <a href="https://github.com/myles/awesome-static-generators">static site generator</a></li>
+<li>Down and dirty, hand crafted HTML</li>
+</ol>
+<p>A static site generator is better for larger sites, and makes updating them <em>much</em> simpler. However, I didn&rsquo;t want to spend time learning a new tool when I didn&rsquo;t have a clear picture of what I wanted to make yet. I decided that to start, I&rsquo;ll just make some plain old HTML pages and link them together. This is quick and easy, though not very scalable. If I ever need an SSG, I&rsquo;ll spend some time looking at the options available or just make one that works specifically for my site.</p>
+<p>For hosting, I went with <a href="https://porkbun.com/">Porkbun&rsquo;s static webhosting</a>. There&rsquo;s free options, of course, like <a href="https://pages.github.com/">Github Pages</a> or <a href="https://neocities.org/">Neocities</a>, but I like being able to get support if I need it and Porkbun handles the SSL certs for me. I already use them as my domain registrar so everything was really easy, just click and go. I linked Porkbun to a Github repo so I don&rsquo;t even need to upload a zip of my website, as soon as I push the changes to the main branch they go live on the site.</p>
+<h4 id="tools">Tools</h4>
+<p>Since I know I wanted to make a very simple website, the tools I needed would be equally simple.</p>
+<ul>
+<li>For text editing, good old <a href="https://notepad-plus-plus.org/">Notepad++</a>. The first text editor I ever used (well except notepad), and something that very much fits in with the spirit of what I&rsquo;m trying to do here. I really hope I never need anything more advanced&hellip;though getting my <code>vimrc</code> up to date sounds fun too.</li>
+<li><a href="https://www.gimp.org/">Gimp</a> and <a href="https://inkscape.org/">Inkscape</a> for image generation. I may not be much of an artist, but I want to do as much of this website on my own as I can.</li>
+<li><a href="https://desktop.github.com/download/">Github Desktop</a> for managing my repo. I normally use the CLI or the built in tools in my IDE for Github, but this is a good opportunity to try out the stand alone app. It&rsquo;s pretty friendly, and a good alternative if you don&rsquo;t want to bother with the command line.</li>
+<li><a href="https://learn.microsoft.com/en-us/windows/terminal/install">Windows Terminal</a> with <a href="https://www.python.org/">Python</a> using <a href="https://docs.python.org/3/library/http.server.html">http.server</a> for local testing. I use Python at work, so I don&rsquo;t want to write Python code if I can avoid it, but <code>python -m http.server</code> in my project folder is a <em>really, really</em> easy way to test out the website. I don&rsquo;t think I strictly need it, but it&rsquo;s closer to what is actually happening on the live site. Take a look at the <a href="https://stackoverflow.com/questions/40204913/difference-between-localhost-and-opening-html-file">differences</a> if you&rsquo;re interested.</li>
+<li>Google Drive to host images. If you have a publicly accessible folder, you can use it <a href="https://stackoverflow.com/questions/15557392/how-do-i-display-images-from-google-drive-on-a-website">host your images and other files</a>. Porkbun has a 2GB limit for the website at my current tier, which should be plenty especially if it&rsquo;s nearly all text.</li>
+</ul>
+<h4 id="workflow">Workflow</h4>
+<p>That&rsquo;s really all there is to it! When I work on the site I just follow a few steps:</p>
+<ol>
+<li>Open the terminal and navigating to my project folder then starting the server with <code>python -m http.server</code>.</li>
+<li>Open Firefox and browse to <code>http://localhost:8000/</code></li>
+<li>Open Notepad++</li>
+</ol>
+<p>From there, it&rsquo;s just a matter of deciding what I want to do and making the changes! <a href="https://32bit.cafe/">32 bit cafe</a> has great tutorials to get started, but you can also check out <a href="https://developer.mozilla.org/en-US/">MDN</a> or <a href="https://www.w3schools.com/">W3Schools</a> if you want documentation or how-to&rsquo;s.</p>
+<p>For inspiration, I browse <a href="https://neocities.org/">Neocities</a> websites or go to <a href="https://search.marginalia.nu/explore/random">Marginalia</a> to see what I can find.</p>
+<p>Only other thing I use is <a href="https://obsidian.md/">Obsidian</a> for note taking, and to write my posts. As much as I like the old web, I don&rsquo;t want to keep what I write in just an HTML file. Obsidian is a great app that keeps everything in plain text, meaning you&rsquo;ll be able to access it even if you don&rsquo;t want to use Obsidian anymore.</p>
+<h3 id="whats-left-to-do">What&rsquo;s left to do?</h3>
+<p>The most important thing, to me, was to just get on the web. The second most important thing is to <em>not</em> scope creep. If this thing becomes a job, I&rsquo;ll very quickly abandon it. I&rsquo;d much rather just go slowly and add things as I need them, then try to come up with some whole grand plan.</p>
+<p>For the near future, the only things I know I want to do are:</p>
+<ol>
+<li>Finish setting up the other pages and tables</li>
+<li>Coming up with a system for the more tedious parts of maintaining a website</li>
+</ol>
+<p>For the second point, this will <em>probably</em> mean using some kind of SSG or&ndash;more likely&ndash;just writing a simple one myself. After all, I just need it to read some posts to build a couple of tables with links to them. How hard could it be?</p>
+<p>As far as content, I&rsquo;ll start out by just sharing my thoughts on whatever I happen to be into at the moment. The Log pages are just my best guess at what I&rsquo;ll like to write about, and I will add or remove them as needed. Long term, I&rsquo;d like to showcase some projects on here but I&rsquo;m not quite sure what yet. For now, though, I&rsquo;m just glad to have put something out there!</p>
+
+</article>
+
+            </main>
+            
+        </div>
+    </body>
+</html>

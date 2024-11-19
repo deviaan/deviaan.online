@@ -6,42 +6,42 @@
     <description>Recent content on deviaan - Online</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 09:41:42 -0600</lastBuildDate>
+    <lastBuildDate>Sat, 16 Nov 2024 11:38:08 -0600</lastBuildDate>
     <atom:link href="https://deviaan.online/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Update0</title>
-      <link>https://deviaan.online/updates/update0/</link>
-      <pubDate>Sun, 17 Nov 2024 09:41:42 -0600</pubDate>
-      <guid>https://deviaan.online/updates/update0/</guid>
-      <description>Text for the first update goes here</description>
-    </item>
-    <item>
-      <title>Third</title>
-      <link>https://deviaan.online/posts/third/</link>
-      <pubDate>Sat, 16 Nov 2024 12:25:33 -0600</pubDate>
-      <guid>https://deviaan.online/posts/third/</guid>
-      <description>My third post</description>
-    </item>
-    <item>
-      <title>Second</title>
-      <link>https://deviaan.online/posts/second/</link>
-      <pubDate>Sat, 16 Nov 2024 12:15:33 -0600</pubDate>
-      <guid>https://deviaan.online/posts/second/</guid>
-      <description>My second post</description>
-    </item>
-    <item>
-      <title>First</title>
-      <link>https://deviaan.online/posts/first/</link>
-      <pubDate>Sat, 16 Nov 2024 12:08:36 -0600</pubDate>
-      <guid>https://deviaan.online/posts/first/</guid>
-      <description>My first post</description>
-    </item>
     <item>
       <title>About</title>
       <link>https://deviaan.online/about/</link>
       <pubDate>Sat, 16 Nov 2024 11:38:08 -0600</pubDate>
       <guid>https://deviaan.online/about/</guid>
-      <description>About Info about me goes here</description>
+      <description>About Hey there! I&amp;rsquo;m deviaan and this is my hobby site. Primarily, its a place to share anything interesting I might stumble onto, and share projects or stories&amp;ndash;if I ever finish any of them. I hope you get as much of a kick out of being here as I did making it!&#xA;Gear I&amp;rsquo;ve always been intrigued by the tools and techs people use, so I thought I&amp;rsquo;d share mine for anyone who shares that curiosity!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://deviaan.online/updates/2024_11_09/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://deviaan.online/updates/2024_11_09/</guid>
+      <description>Got the new tile made, though it is a bit late.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://deviaan.online/updates/2024_10_04/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://deviaan.online/updates/2024_10_04/</guid>
+      <description>The basic skeleton of the site is done! Lots of cleaning up and optimizing to do, though!</description>
+    </item>
+    <item>
+      <title>Up and Running</title>
+      <link>https://deviaan.online/posts/up_and_running/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://deviaan.online/posts/up_and_running/</guid>
+      <description>My first post! I&amp;rsquo;m not sure if it&amp;rsquo;s a tradition, but in this one I just talk about why I wanted to make this and how I made it. Not really a tutorial, but more just picking reasons to do X over Y, along with links to resources that helped me get started!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://deviaan.online/updates/2024_09_30/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://deviaan.online/updates/2024_09_30/</guid>
+      <description>We are live! The site is mostly placeholder text right now, but during the week should see frequent updates!</description>
     </item>
   </channel>
 </rss>
