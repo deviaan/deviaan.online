@@ -1,0 +1,8 @@
+name: Deploy to Porkbun
+run-name: ${{ github.actor }} deploying
+on: [push]
+jobs:
+  Deploy-Porkbun:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Testing creating a github action"
