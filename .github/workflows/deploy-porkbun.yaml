@@ -13,12 +13,16 @@ jobs:
     - name: Checkout latest
       uses: actions/checkout@v4
 
-    - name: Test secrets work
-      run: echo ${{ secrets.FTP_USERNAME }}
+    - name: Zip website
+      uses: somaz94/compress-decompress@v1
+      with:
+        command: compress
+        source: ./public
+        format: zip
 
-#    - name: Zip website
-#     uses: somaz94/compress-decompress@v1
-#      with:
-#        command: compress
-#        source: ./public
-#        format: zip
+    - name: Publish changes
+      uses: airvzxf/ftp-deployment-action@latest
+      with:
+        server: {{ $secrets.FTP_SERVER }}
+        user: {{ $secrets.FTP_USER }}
+        password: {{ $secrets.FTP_PASSWORD }}
