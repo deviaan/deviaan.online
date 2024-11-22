@@ -19,14 +19,11 @@ jobs:
         command: compress
         source: ./public
         format: zip
-    
-    - name: Test to see file name
-      run: echo $(ls)
 
-    # - name: Publish changes
-    #   uses: airvzxf/ftp-deployment-action@latest
-    #   with:
-    #     server: {{ $secrets.FTP_SERVER }}
-    #     user: {{ $secrets.FTP_USERNAME }}
-    #     password: {{ $secrets.FTP_PASSWORD }}
-    #     local_dir: "public.zip"
+    - name: Publish changes
+      uses: airvzxf/ftp-deployment-action@latest
+      with:
+        server: {{ $secrets.FTP_SERVER }}
+        user: {{ $secrets.FTP_USERNAME }}
+        password: {{ $secrets.FTP_PASSWORD }}
+        local_dir: "./public.zip"
