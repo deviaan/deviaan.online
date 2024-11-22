@@ -1,8 +1,17 @@
 name: Deploy to Porkbun
 run-name: ${{ github.actor }} deploying
-on: [push]
+on:
+  push:
+    branches: [main]
 jobs:
   Deploy-Porkbun:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
-      - run: echo "Testing creating a github action"
+    - name: Checkout latest
+      uses: actions/checkout@v4
+
+    - name: Show working dir
+      run: ls -al | echo
