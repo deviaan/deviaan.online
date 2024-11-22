@@ -13,5 +13,12 @@ jobs:
     - name: Checkout latest
       uses: actions/checkout@v4
 
-    - name: Show working dir
-      run: echo $(ls)
+    - name: Test secrets work
+      run: echo ${{ secrets.FTP_USERNAME }}
+
+#    - name: Zip website
+#     uses: somaz94/compress-decompress@v1
+#      with:
+#        command: compress
+#        source: ./public
+#        format: zip
