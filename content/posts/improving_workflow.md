@@ -1,6 +1,6 @@
 ---
 date: 2024-11-23
-draft: true
+draft: false
 title: 'Improving_workflow'
 summary: 'Getting up and running is only part of the problem. I found my workflow very cumbersome which made writing feel more like a chore than something fun. Here I talk about the changes I made to make updating the website painless.'
 ---
@@ -142,7 +142,7 @@ jobs:
 
 ## Writing should be fun
 
-The last thing I needed to do was find a way of writing that felt natural and fun. This post was written using [Ghostwriter](https://ghostwriter.kde.org/)--a distraction free Markdown writing tool, which so far I really like!
+The last thing I needed to do was find a way of writing that felt natural and fun. I could use VS Code for this as well, though I prefer to use that only for coding and small changes. Having a dedicated tool for writing would help me have the write mindset whenever I sat down at my computer. This post was written using [Ghostwriter](https://ghostwriter.kde.org/)--a distraction free Markdown writing tool, which so far I really like!
 
 The other tool I use is [Obsidian](https://obsidian.md/). It's designed for note taking and knowledge management with a ton of great features--including the ability to export your note vault as HTML. It uses Markdown for all its files so, besides using it for all my notes, I can use it to write more complex articles.
 
@@ -151,4 +151,6 @@ I use [Markor](https://github.com/gsantner/markor) whenever I need to write some
 
 # What's next?
 
-In the immediate future, I'm looking forward to writing about something _other_ than the site itself. At some point, I need to figure out images. The 2Gb of storage I'm using at Porkbun is more than enough for my site, but I don't want to saturate it with a bunch of images. For smaller, site-wide images, I don't mind dumping them in the static folder and referencing them as needed. For larger, page specific ones, I'm manually uploading to a public folder in my Google Drive and linking to them in the Markdown. There's clearly a better way to do this--especially when I'm exporting from Obsidian--but it hasn't become a big enough issue for me to worry about yet.
+In the immediate future, I'm looking forward to writing about something _other_ than the site itself. There are a few things I need to tweak, like the banner on the mobile version of the site, but none of those are really worth writing about outside of an update note.
+
+At some point, I need to figure out how to handle images. The 2Gb of storage I'm using at Porkbun is more than enough for my site, but I don't want to saturate it with a bunch of images. For smaller, site-wide images, I don't mind dumping them in the static folder and referencing them as needed. For larger, page specific ones, I'm manually uploading to a public folder in my Google Drive and linking to them in the Markdown. There's clearly a better way to do this--especially when I'm exporting from Obsidian--but it hasn't become a big enough issue for me to worry about yet.
