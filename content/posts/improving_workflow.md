@@ -95,7 +95,7 @@ The CSS came from the W3 Schools example, combined with CSS I had already writte
 ```css
 .article {
 	a {
-		// Styles any links inside of a tag with the article class
+		/* Styles any links inside of a tag with the article class */
 	}
 }
 ```
@@ -139,6 +139,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local_dir: "./public"
 ```
+
 
 ## Writing should be fun
 
