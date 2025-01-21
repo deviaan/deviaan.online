@@ -243,3 +243,44 @@ body {
         vertical-align: top;
       }
 }
+
+/* Footer & badges */
+.footer {
+    margin-top: 25px;
+    background-color: var(--article-background-color);
+    color: var(--default-text-color);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+    a {
+        color: var(--default-link-color);
+    }
+}
+
+/* TCG deck lists */
+.pokemon-deck {
+    h1 {
+        font-size: 24pt;
+    }
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    border: 1px solid;
+    padding: 2px;
+
+    .deck-list-header {
+        display: flex;
+        margin-bottom: 10px;
+
+        .energy-type {
+            margin-left: 20px;
+        }
+    }
+
+    .deck-list {
+        display: flex;
+    }
+}
