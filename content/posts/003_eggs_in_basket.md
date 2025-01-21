@@ -1,6 +1,6 @@
 ---
 date: 2025-01-20
-draft: true
+draft: false
 title: 'Eggs in a Basket'
 summary: "Made it through the Mystic Island consecutive win Gauntlet! Sharing the deck I used and my strategy, hopefully some will find it helpful!"
 ---
