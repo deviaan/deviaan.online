@@ -20,15 +20,15 @@ I'm not a statistician, so bear with me here.
 
 [Variance](https://en.wikipedia.org/wiki/Variance) is a statistics term that refers to the distribution of probable events, but you can also think of it like luck. Card games are fun in large part because of variance, after all the skill you develop is making the best use of the resources you have (ie. the cards you draw), not all the resources available to you (ie. the cards in your deck). But when variance is too high, it starts to feel like your decisions don't matter and that, in my opinion, just sucks the fun out of the game.
 
-Best of 1 games have a high variance. If you get bad draws or terrible coin flips, that's it you lose the game _and_ your streak. Even if that is unlikely, since it needs to happen only once to ruin your run, the variance of getting 5 games in a row where you _don't_ experience a run-ruining event is wide. This is why I think these events would be more enjoyable with allowing some amount of losses before ending your run. I found 5 success before 3 failures to be a sweet spot in [4e D&D skill challenges](https://www.roll4.net/2021/05/21/4es-best-mechanic-skill-challenges), so I'd probably try that first. Of course, this means players wouldn't play as much which is the _whole point_ of the event so I'm not sure the Pokemon company would go for it.
+Best of 1 games have a high variance. If you get bad draws or terrible coin flips, that's it you lose the game _and_ your streak. Even if that is unlikely, since it needs to happen only once to ruin your run, the variance of getting 5 games in a row where you _don't_ experience a run-ruining event is wide. This is why I think these events would be more enjoyable if they allowed some amount of losses before ending your run. I found 5 success before 3 failures to be a sweet spot in [4e D&D skill challenges](https://www.roll4.net/2021/05/21/4es-best-mechanic-skill-challenges), so I'd probably try that first. Of course, this means players wouldn't play as much which is the _whole point_ of the event so I'm not sure the Pokemon company would go for it.
 
 Before starting the event, accept that you are going to lose some runs to random bullshit. What you want to do going in is maximize your chance of winning by: (1) playing a deck that has pretty even matchups and (2) minimize your miss-plays. When you focus too much on those unlucky games, there's a chance you might get [tilted](https://infinite.tcgplayer.com/article/Avoiding-the-Pitfalls-of-Tilt/9aff6f35-4153-4d1d-8083-ab9bbd7004d7/), and at that point you're going to start losing games due to poor play anyways. Take a break if this happens.
 
-Besides being "zen" about losses, or whatever, one thing I always do with this event is fish for my first win. If a game even _looks_ like I might lose it, I just conceded and move on. A random player gets a free win, which is nice for them, but it also means I don't have to expend a any energy on that first win, I can just focus on the next four.
+Besides being "zen" about losses, or whatever, one thing I always do with this event is fish for my first win. If a game even _looks_ like I might lose it, I just conceded and move on. A random player gets a free win, which is nice for them, but it also means I don't have to expend any energy on that first win, I can just focus on the next four.
 
 ### Take Breaks
 
-This leads to the next big point--energy. Like, you're physical and mental energy not the game mechanic. Card games take a toll on you, it's a fair amount of thinking trying to see one to two moves ahead. When you're tired, you're more likely to make mistakes and ruin your run. There's not time limit or penalty for stopping, so take as many as you need.
+This leads to the next big point--energy. Like, you're physical and mental energy not the game mechanic. Card games take a toll on you, it's a fair amount of thinking trying to see one to two moves ahead. When you're tired, you're more likely to make mistakes and ruin your run. There's no time limit or penalty for stopping, so take as many as you need.
 
 ### This event is irrelevant
 
@@ -76,7 +76,7 @@ This deck is _really_ fun, but it's not super consistent. I would often find mys
 
 I tried again with this [Pikachu ex](https://www.pokemonmeta.com/top-decks/community-tournaments/foxcave-battle-arena-(320-players)/3/pikachu-ex/pokedex/Od47L) net deck. It uses [Galvantula](https://pocket.limitlesstcg.com/cards/A1a/29) to help in the Metwo match up and did pretty well! I went 4-1 with it once, before burning out on the play style.
 
-At this point, I guess I decided that since I wasn't stressed and anxious enough already, I'd just build a deck specifically for this event based on the decks I had seen so far. Building decks has always been my favorite part of collectible card games, but as I've gotten older I haven't had the time to make anything except clunky, untuned piles of cards. Doing this during my least favorite event was probably not the best idea, and the deck I built might not actually be any good, but it seems to have worked out.
+At this point, I guess I decided that since I wasn't stressed and anxious enough already, I'd just build a deck specifically for this event based on the decks I had seen so far. Building decks has always been my favorite part of collectible card games, but as I've gotten older I haven't had the time to make anything except clunky, untuned piles of cards. Doing this during my least favorite event was probably not the best or most original idea, and the deck I built might not actually be any good, but it seems to have worked out.
 
 ### Pain Points
 
@@ -86,19 +86,19 @@ The first thing I did was try to figure out what I was bothering me about the de
 
 ### Threats in the format
 
-I got around 30 games before deciding to build my own deck and grouped the decks I saw into four categories. The first, random Single prize decks and "anti-meta" Fighting decks. These usually don't do great into [Exeggutor ex](https://pocket.limitlesstcg.com/cards/A1/23) so I didn't feel like I needed anything special to beat them.
+I got around 30 games before deciding to build my own deck and grouped the decks I saw into four categories. The first, random Single prize decks and "anti-meta" Fighting decks, usually don't do great into [Exeggutor ex](https://pocket.limitlesstcg.com/cards/A1/23) so I didn't feel like I needed anything special to beat them.
 
 The second group were "small ex" decks--things like [Pikachu ex](https://pocket.limitlesstcg.com/cards/A1/96), [Starmie ex](https://pocket.limitlesstcg.com/cards/A1/76), [Celebi ex](https://pocket.limitlesstcg.com/cards/A1a/3), [Arcanine ex](https://pocket.limitlesstcg.com/cards/A1/41), and [Mew ex](https://pocket.limitlesstcg.com/cards/A1a/32). All of these are pretty fast decks that use weaker ex Pokemon to try and close the game out early. Crucially, they all die to [Tauros](https://pocket.limitlesstcg.com/cards/A1a/60) and [Giovanni](https://pocket.limitlesstcg.com/cards/A1/223), so I'd found my second Pokemon.
 
 ![Tauros A1a](https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_060_EN.webp)
 
-Next, I grouped "big ex" or "setup" decks. These take multiple turns to set up and use usually try use a single large ex Pokemon to sweep. This would [Charizard ex](https://pocket.limitlesstcg.com/cards/A1/36), [Mewtwo ex](https://pocket.limitlesstcg.com/cards/A1/129), and [Gyarados ex](https://pocket.limitlesstcg.com/cards/A1a/18). For these, I knew that [Mew ex](https://pocket.limitlesstcg.com/cards/A1a/32) would be a good choice since Genome Hacking would often get set up before they would and that prevented them from being able to switch in.
+Next, I grouped "big ex" or "setup" decks. These take multiple turns to set up and use a single large ex Pokemon to sweep. [Charizard ex](https://pocket.limitlesstcg.com/cards/A1/36), [Mewtwo ex](https://pocket.limitlesstcg.com/cards/A1/129), and [Gyarados ex](https://pocket.limitlesstcg.com/cards/A1a/18) all fall into this category. For these, I knew that [Mew ex](https://pocket.limitlesstcg.com/cards/A1a/32) would be a good choice since Genome Hacking would often get set up before they would, preventing them from switching in their sweeper in the first place. If they ever did, Mew ex would come in and clean up.
 
 ![Mew ex A1a](https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1a/A1a_032_EN.webp)
 
 Finally, there were "medium" ex decks like [Aerodactyl ex](https://pocket.limitlesstcg.com/cards/A1a/46) and [Venusaur ex](https://pocket.limitlesstcg.com/cards/A1/4). These were the rarest, so I didn't think too much about them. I mostly just hoped that some combination of heads flips on Exeggutor would be enough to take me through. I group other Exeggutor decks here as well.
 
-After a few games I realized that against fast decks, like the [Blaine](https://pocket.limitlesstcg.com/cards/A1/221) variants, would be able to knock out two of my Ex Pokemon before I could set them up. Often, I'd be just 1 energy short of winning. I decided to add [baby Exeggutor](https://pocket.limitlesstcg.com/cards/A1/22) to have another 1 prize Pokemon that could wall and still deal damage with a single energy. This turned out to be _huge_ since it would allow me to stall an additional turn and get the last point I needed to win.
+After a few games I realized that fast decks, like the [Blaine](https://pocket.limitlesstcg.com/cards/A1/221) variants, would be able to knock out two of my Ex Pokemon before I could set them up. Often, I'd be just 1 energy short of winning. I decided to add [baby Exeggutor](https://pocket.limitlesstcg.com/cards/A1/22) to have another 1 prize Pokemon that could wall and still deal damage with a single energy. This turned out to be _huge_ since it would allow me to stall an additional turn and get the last point I needed to win.
 
 ![Exeggutor A1](https://limitlesstcg.nyc3.cdn.digitaloceanspaces.com/pocket/A1/A1_022_EN.webp)
 
@@ -140,9 +140,9 @@ The deck I used ended up looking like this.
 
 ### Instructions included
 
-I felt good going both first or second when playing. Going first, you really want to open on Exeggcute and get into Exeggutor right away. It happens often enough to win a few games on its own. A single heads on your attack is enough to derail your opponent's game plan.
+I felt good going both first or second--which was the main thing I wanted out of my deck. Going first, you really want to open on Exeggcute and get into Exeggutor right away. It happens often enough to win a few games on its own. A single heads on your attack is enough to derail your opponent's game plan.
 
-Going second your choices open up a lot. I normally would _not_ attach to Exeggcute going second unless I needed to mark 20 damage on their active Pokemon. This way, I can build up one of the three energy attacks and then, if Exeggcute lives, go right into attacking with Exeggutor the next turn.
+Going second your choices open up a lot. I normally would _not_ attach to Exeggcute going second unless I needed to mark 20 damage on their active Pokemon. This way, I can build up one of the three energy attackers and then, if Exeggcute lives, go right into attacking with Exeggutor the next turn.
 
 Exeggutor defines your early and mid game. You want to get it up, keep it healthy to stall out as long as it takes to power up one of your 3 energy attackers, and get at least 1 knock out. If you manage to do that, you're in a really strong position to finish out the game. When you have to choose between baby and ex Exeggutor, pick based on the match up. If you think Exeggutor ex can live at least 3 turns, use him. If not, it's better to use baby Exeggutor to give up a single prize, then switch in to a Tauros as a 2nd stalling Pokemon so you can power up your bench.
 
@@ -150,7 +150,7 @@ Normally, you'll power up either Tauros or Mew--though in some games you'll get 
 
 When powering up you usually want to have 2 Energy and then _stop_. You can attach the third energy on switch in. Then you can either: start powering up a second attacker or adding energies to Exeggutor so he can retreat. If you need to use Giovanni to get a Knock Out, prioritize adding energies to Exeggutor before powering up a second attacker. If you use Leaf to pull Exeggutor out, you _can't_ play Giovanni and you will miss your Knock Out.
 
-Tauros serves as a sacrifice when you need to stall an additional turn. Keep an eye on your prize count and don't be afraid to send them out to stall, especially in match ups where it's otherwise useless. You should try to force your opponent to take 3 knock outs to win.
+Tauros serves as a sacrifice when you need to stall an additional turn. Keep an eye on the point count and don't be afraid to send them out to stall, especially in match ups where it's otherwise useless. You should try to force your opponent to take 3 knock outs to win.
 
 Against big ex decks, just having a Mew ex with two energies on your bench is enough to pressure your opponent. They can't safely switch in their big attacker without getting knocked out. Any Pokemon that dies to it's own attack--[Ninetales](https://pocket.limitlesstcg.com/cards/A1/38), [Marshadow](https://pocket.limitlesstcg.com/cards/A1a/47) after a KO, etc--is at risk, but players often miss this. Since we're only using grass energy, you can also copy [Celebi's](https://pocket.limitlesstcg.com/cards/A1a/3) attack which is hilarious. Against [Pikachu es](https://pocket.limitlesstcg.com/cards/A1/96), all Mew can really do is buy 1 turn and then retreat, but it's not a good wall. Giving up two points is _huge_, you do not want Mew to get knocked out. When in doubt, just don't play it.
 
@@ -163,7 +163,7 @@ Finally, [Blue](https://pocket.limitlesstcg.com/cards/A1a/67) is mostly used to 
 
 ### What about....?
 
-I tried the Mythical Island [Exeggcute](https://pocket.limitlesstcg.com/cards/A1a/1) a bit, but the extra energy did not come up as often as the 20 damage did. I think it be good with the Mythical Island [Exeggutor](https://pocket.limitlesstcg.com/cards/A1a/2), but being effectively _another_ 3 cost attacker proved to make the deck way too slow.
+I tried the Mythical Island [Exeggcute](https://pocket.limitlesstcg.com/cards/A1a/1) a bit, but the extra energy did not come up as often as the 20 damage did. I think it works well with the Mythical Island [Exeggutor](https://pocket.limitlesstcg.com/cards/A1a/2), but being effectively _another_ 3 cost attacker makes the deck way too slow.
 
 A case could be made for swapping out the [Blue](https://pocket.limitlesstcg.com/cards/A1a/67) for a [Potion](https://pocket.limitlesstcg.com/cards/P-A/1) or something. I opted against it because it felt like the only Pokemon I wanted to heal was Exeggutor.
 
