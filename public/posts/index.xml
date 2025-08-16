@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on deviaan - Online</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on deviaan - Online</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eggs in a Basket</title>
+      <link>http://localhost:1313/posts/003_eggs_in_basket/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/003_eggs_in_basket/</guid>
+      <description>Made it through the Mystic Island consecutive win Gauntlet! Sharing the deck I used and my strategy, hopefully some will find it helpful!</description>
+    </item>
+    <item>
+      <title>Tempo and Card Advantage in Pokemon Pocket</title>
+      <link>http://localhost:1313/posts/002_card_advantage_and_tempo_in_pokemon_pocket/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/002_card_advantage_and_tempo_in_pokemon_pocket/</guid>
+      <description>Pokemon Pocket has taken up a lot of time recently. It really scratches that TCG itch! Here I go over some of the things I have learned playing card games, and how they apply to Pokemon Pocket.</description>
+    </item>
+    <item>
+      <title>Improving_workflow</title>
+      <link>http://localhost:1313/posts/001_improving_workflow/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/001_improving_workflow/</guid>
+      <description>Getting up and running is only part of the problem. I found my workflow very cumbersome which made writing feel more like a chore than something fun. Here I talk about the changes I made to make updating the website painless.</description>
+    </item>
+    <item>
+      <title>Up and Running</title>
+      <link>http://localhost:1313/posts/000_up_and_running/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/000_up_and_running/</guid>
+      <description>My first post! I&amp;rsquo;m not sure if it&amp;rsquo;s a tradition, but in this one I just talk about why I wanted to make this and how I made it. Not really a tutorial, but more just picking reasons to do X over Y, along with links to resources that helped me get started!</description>
+    </item>
+  </channel>
+</rss>

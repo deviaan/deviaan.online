@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>deviaan - Online
+        
+    </title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+    <meta charset="UTf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="deviaan's personal homepage"/>
+    <link rel="icon" href="/images/icon.png" type="image/png"/>
+</head>
+    <body>
+        <div class="page">
+            <div class="header">
+    <a href="/">
+        <img 
+            class="banner-img" 
+            src="/images/banner.png"
+            alt="Site logo depicting an eye with blue fire around it."
+        />
+    </a>
+</div>
+            <nav class="menu">
+    <a href="/">Home</a>
+    <a href="/posts">Posts</a>
+    <a href="/about">About</a>
+</nav>
+            <main>
+                
+<article class="article">
+    <h1 id="improving-workflow">Improving Workflow</h1>
+<p>I knew that as much fun as I was having making this website in hard coded HTML, it wasn&rsquo;t going to scale and eventually writing a post would be frustrating and tedious. It was a great way to start&ndash;I built something instead of spending all my time learning about tools&ndash;but, if I wanted this project to continue, there were a few key pain points that I needed to tackle.</p>
+<h2 id="a-better-way">A better way</h2>
+<p>I spent a lot of the last month researching website making tools. I knew I wanted something flexible and simple. Content Management Systems, like WordPress, and site builders are great, but were more than I needed. I tried writing some scripts myself to build the website, though I found that my time was then spent on making a tool rather than making a site.</p>
+<p>Static Site Generators were exactly what I as looking for and I decided to go with <a href="https://gohugo.io/">Hugo</a>. It&rsquo;s just a single binary making it very easy to install and use. The <a href="https://gohugo.io/documentation/">documentation</a> is great and the <a href="https://gohugo.io/templates/">template language</a> made a lot of sense to me. There are also a lot of <a href="https://themes.gohugo.io/">themes</a> to get started quickly, or to mine for inspiration.</p>
+<p>The other SSGs I looked at were <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://www.statiq.dev/">Statiq</a>. Jekyll feels very similar to Hugo. The templating language, <a href="https://shopify.github.io/liquid/tags/variable/">liquid</a>, reminds me of <a href="https://jinja.palletsprojects.com/en/stable/">Jinja</a>, which is something I&rsquo;ve used before. In fact, if I had found Jekyll before Hugo I probably would have gone with it instead.</p>
+<p>Statiq, on the other hand, <em>can</em> be used as a simple binary the same way Hugo is, but what made it look interesting to me was the that you could define your entire pipeline for converting your Markdown files into a website. While I don&rsquo;t really need that much flexibility right now, I&rsquo;m glad it&rsquo;s there if I ever do.</p>
+<h3 id="converting-the-website-to-hugo">Converting the website to Hugo</h3>
+<p>The easiest way to get started with Hugo is to use a <a href="https://themes.gohugo.io/">theme</a>. This will give you a website that looks professional and is trivial to set up. I wanted to keep my site looking similar to what I already have so instead I decided to recreate my site using a layout.</p>
+<p>I started by grouping the parts of my website into three key categories:</p>
+<ol>
+<li>Things that go on every page</li>
+<li>Individual parts of a page that I want to reuse</li>
+<li>The homepage</li>
+</ol>
+<p>The first part is easy enough. Every page had to have the same header, navigation bar, banner, and (eventually) footer. I just took all this and put it into a file called <code>baseof.html</code>. Hugo takes this file and uses it construct every other page on your site. The <code>main</code> section is defined by each individual templates.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ partial &#34;head/head.html&#34; }}
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;page&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ partial &#34;header/site-header.html&#34; }}
+</span></span><span style="display:flex;"><span>            {{ partial &#34;menu/menu.html&#34; }}
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">main</span>&gt;
+</span></span><span style="display:flex;"><span>                {{ block &#34;main&#34; . }}{{ end }}
+</span></span><span style="display:flex;"><span>            &lt;/<span style="color:#f92672">main</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ partial &#34;footer/site-footer.html&#34; }}
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><p>The components are known as <code>partials</code> and refer to the second category: parts of a page that I want to reuse. Each one goes into its own file that contains only the HTML elements required for that component. This makes it easy to reason about a particular part of a webpage, and keeps your layout organized so whenever you want to change something, you know exactly where to go. The partial for my <code>head</code> element, for example, only has the content that needs to go in the <code>&lt;head&gt;</code> section, and updating it here updates it site-wide.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">title</span>&gt;deviaan - Online
+</span></span><span style="display:flex;"><span>        {{ if .Title }}
+</span></span><span style="display:flex;"><span>            | {{ .Title }}
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/css/styles.css&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTf-8&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;viewport&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;width=device-width, initial-scale=1&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;description&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;deviaan&#39;s personal homepage&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;icon&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/icon.png&#34;</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;image/png&#34;</span>/&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span></code></pre></div><p>The last thing that needed special attention was the homepage. This gets a special file called <code>index.html</code>. You can make a specific layout for any page you like, but in my case only the homepage needed it. For the other pages, there&rsquo;s two options: <code>single.html</code>, which renders any single page like this post or the <a href="/about">about page</a> and <code>list.html</code>, which handles pages that have a group of things such as the <a href="/posts">posts page</a> page. For both, I just used the example from the Hugo documentation.</p>
+<p>I decided to change the layout of my home page into two simple two columns with posts on one side and updates on the other. The <a href="https://www.w3schools.com/css/css_website_layout.asp">example</a> that W3Schools had in their tutorial seemed good to me, so I used that with a small variation to limit the horizontal width of the content.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ define &#34;main&#34; }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;homepage&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;posts&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ range first 5 (where .Site.RegularPages &#34;Section&#34; &#34;posts&#34;).ByDate.Reverse }}
+</span></span><span style="display:flex;"><span>            {{ partial &#34;cards/posts.html&#34; .}}
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;updates&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">h3</span>&gt;Latest Changes&lt;/<span style="color:#f92672">h3</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ range first 5 (where .Site.RegularPages &#34;Section&#34; &#34;updates&#34;).ByDate.Reverse }}
+</span></span><span style="display:flex;"><span>            {{ partial &#34;cards/updates.html&#34; .}}
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><p>The CSS came from the W3 Schools example, combined with CSS I had already written for my site, and a <a href="https://github.com/simonlc/Markdown-CSS/blob/master/markdown.css">new Markdown style</a> for the posts that I found online. To simplify porting over the CSS style for the posts, I created a new class called <code>article</code> and just copied the parts I wanted from the full Markdown style.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span>.<span style="color:#a6e22e">article</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#960050;background-color:#1e0010">a</span> <span style="color:#960050;background-color:#1e0010">{</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">/* Styles any links inside of a tag with the article class */</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span><span style="color:#960050;background-color:#1e0010">}</span>
+</span></span></code></pre></div><p>You can find the full website on <a href="https://github.com/deviaan/deviaan.online">github</a>. It&rsquo;s very basic, not as fancy as the themes, but if you can find something useful in there feel free to use it!</p>
+<h2 id="deploying-made-easy">Deploying made easy</h2>
+<p>I&rsquo;m using <a href="https://porkbun.com/">porkbun</a> for both domain registration and static hosting. They can link directly to a github repository and automatically publish your site changes, which works great when your final website is contained in repo. However, now that my repo is instructions on how to build the website and not the website itself, it doesn&rsquo;t work exactly how I want it to. I definitely don&rsquo;t want my entire repo on the static host. There is probably a way around this, but it seemed like a great opportunity to learn how to use <a href="https://docs.github.com/en/actions">Github actions</a>.</p>
+<p>To deploy manually, I only needed to run <code>hugo</code> on my local machine, then zip the <code>public</code> folder, and upload it to Porkbun. It&rsquo;s only three steps, but it was very frustrating when I would realize that I forgot to run <code>hugo</code> or didn&rsquo;t re-zip the <code>public</code> folder.</p>
+<p>Luckily, there&rsquo;s already a bunch of actions on Github that I can use. So, after setting up some <a href="https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions">secrets</a> with my FTP credentials, I used <a href="https://github.com/marketplace/actions/build-hugo">an action to build Hugo</a> and another to <a href="https://github.com/marketplace/actions/ftp-deployment">ftp my files to Porkbun</a>. This runs automatically when I commit and push any changes to my site. Since I&rsquo;m building when I upload, this also means I no longer need to track changes to my <code>public</code> folder, which makes my repo just a bit cleaner.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy to Porkbun</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">run-name</span>: <span style="color:#ae81ff">${{ github.actor }} deploying</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">branches</span>: [<span style="color:#ae81ff">main]</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">jobs</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">Deploy-Porkbun</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">runs-on</span>: <span style="color:#ae81ff">ubuntu-latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">defaults</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">run</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">shell</span>: <span style="color:#ae81ff">bash</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">steps</span>:
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Checkout latest</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">actions/checkout@v4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Build Hugo</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">lowply/build-hugo@v0.139.0</span>
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Publish changes</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">uses</span>: <span style="color:#ae81ff">airvzxf/ftp-deployment-action@latest</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">with</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">server</span>: <span style="color:#ae81ff">${{ secrets.FTP_SERVER }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">user</span>: <span style="color:#ae81ff">${{ secrets.FTP_USERNAME }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">password</span>: <span style="color:#ae81ff">${{ secrets.FTP_PASSWORD }}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">local_dir</span>: <span style="color:#e6db74">&#34;./public&#34;</span>
+</span></span></code></pre></div><h2 id="writing-should-be-fun">Writing should be fun</h2>
+<p>The last thing I needed to do was find a way of writing that felt natural and fun. I could use VS Code for this as well, though I prefer to use that only for coding and small changes. Having a dedicated tool for writing would help me have the write mindset whenever I sat down at my computer. This post was written using <a href="https://ghostwriter.kde.org/">Ghostwriter</a>&ndash;a distraction free Markdown writing tool, which so far I really like!</p>
+<p>The other tool I use is <a href="https://obsidian.md/">Obsidian</a>. It&rsquo;s designed for note taking and knowledge management with a ton of great features&ndash;including the ability to export your note vault as HTML. It uses Markdown for all its files so, besides using it for all my notes, I can use it to write more complex articles.</p>
+<p>I use <a href="https://github.com/gsantner/markor">Markor</a> whenever I need to write something on Android. While it&rsquo;s rare for me to do this on my phone, outside of making simple updates, I often do write on my tablet. Especially now that I don&rsquo;t carry around a laptop. Additionally, both Github and Obsidian are available on Android, which means I can have my notes and update my website from mobile if I ever need to.</p>
+<h1 id="whats-next">What&rsquo;s next?</h1>
+<p>In the immediate future, I&rsquo;m looking forward to writing about something <em>other</em> than the site itself. There are a few things I need to tweak, like the banner on the mobile version of the site, but none of those are really worth writing about outside of an update note.</p>
+<p>At some point, I need to figure out how to handle images. The 2Gb of storage I&rsquo;m using at Porkbun is more than enough for my site, but I don&rsquo;t want to saturate it with a bunch of images. For smaller, site-wide images, I don&rsquo;t mind dumping them in the static folder and referencing them as needed. For larger, page specific ones, I&rsquo;m manually uploading to a public folder in my Google Drive and linking to them in the Markdown. There&rsquo;s clearly a better way to do this&ndash;especially when I&rsquo;m exporting from Obsidian&ndash;but it hasn&rsquo;t become a big enough issue for me to worry about yet.</p>
+
+</article>
+
+            </main>
+            <div class="footer">
+    <a href="https://github.com/deviaan/deviaan.online"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></a>
+    <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p> 
+</div>
+        </div>
+    </body>
+</html>

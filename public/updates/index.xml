@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on deviaan - Online</title>
+    <link>http://localhost:1313/updates/</link>
+    <description>Recent content in Updates on deviaan - Online</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2025_08_16/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2025_08_16/</guid>
+      <description>&lt;p&gt;New background image. This will be the one I use for a while, changing every month was too ambitous.&#xA;Will iterate on it as I learn the art tools!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2025_08_15/</link>
+      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2025_08_15/</guid>
+      <description>&lt;p&gt;Minified the images to improve performance. Update the github action.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2025_02_02/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2025_02_02/</guid>
+      <description>&lt;p&gt;Update background for February!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2025_01_20/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2025_01_20/</guid>
+      <description>&lt;p&gt;New article up! I also added some CSS for deck lists since Card Games will come up a lot. Also added Github link and CC license.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2025_01_02/</link>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2025_01_02/</guid>
+      <description>&lt;p&gt;The January background is up! Also wrapped up some thoughts on Pokemon Pocket.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2024_12_07/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2024_12_07/</guid>
+      <description>&lt;p&gt;A little late, but the december tile is ready!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2024_11_22/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2024_11_22/</guid>
+      <description>&lt;p&gt;Got some github actions set up to automatically deploy the website. Should hopefully make it easier to keep this updated!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2024_11_09/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2024_11_09/</guid>
+      <description>&lt;p&gt;Got the new tile made, though it is a bit late.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2024_10_04/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2024_10_04/</guid>
+      <description>&lt;p&gt;The basic skeleton of the site is done! Lots of cleaning up and optimizing to do, though!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/2024_09_30/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/2024_09_30/</guid>
+      <description>&lt;p&gt;We are live! The site is mostly placeholder text right now, but during the week should see frequent updates!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
