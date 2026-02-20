@@ -17,6 +17,8 @@ LSS released a [sideboard guide](https://fabtcg.com/articles/silver-age-sideboar
 
 ## Round 1 vs Miguel
 
+![Enigma](https://content.fabrary.net/cards/SEN001.webp)
+
 Miguel and I came to the tournament together. While normally I wouldn't like to be matched up against a friend, since this was a casual tournament I didn't mind. I'm pretty nervous in public, so getting to play what felt like a casual match helped me relax. It also meant that we both could comfortably learn our new heroes without worrying about annoying our opponent's. Miguel got [Enigma](https://fabrary.net/decks/01KFWFYETE5DC1GK586XYXXFE6), and it took him a while to get the jist of her. It didn't help that Enigma was one of the more complex heroes to play. I've faced her on Talishar a few times, so I knew that I needed to watch out for her shield tokens. If she got too many, she'd be able to attack me a bunch of times each turn, something that I knew guardians had trouble dealing with from playing [Oldhim](https://content.fabrary.net/cards/ELE002.webp). 
 
 I focused on pushing enough damage to break her shields (they are required to pop if they can prevent any damage). Once Miguel got the hang of it, he started to claw back tempo. I was holding on to a [Pummel](https://content.fabrary.net/cards/SBR020.webp) to finish the game, but couldn't find a time to use it. I had gotten him down to around 6 when time was called. Miguel decided to concede to me because I was winning when time was called. I suggested we play out a turn or two more, but we didn't want to hold up the tournament and usually a loss is better than a tie. I _think_ if I had 2-3 more turns I would have won, but it's hard to know for sure.
@@ -26,11 +28,15 @@ Record: 1 - 0
 
 ## Round 2 vs Chuy
 
+![Kayo](https://content.fabrary.net/cards/SKA001.webp)
+
 Chuy was on [Kayo](https://fabrary.net/decks/01KFWFZ9Z5W17F0NHKQ44811Q0), one of the stronger heroes in the meta and, by extension, the sealed decks. Kayo hits _hard_ and _fast_. He was swinging in for 6+ damage at least twice per turn, sometimes with a jab for 3 at the end. Guardians generally struggle defending against multiple attacks, so I was leaking damage almost every turn. My response was to play more aggresively than usual, swinging back with 8+ damage as often as I could. Eventually, we got to a point where he had a card in arsenal and I attacked with a [Blue Disable](https://content.fabrary.net/cards/SBR029.webp). It only cost 4 because of a [Seismic Surge Token](https://content.fabrary.net/cards/SBR035.webp) I had made defending on his turn. He blocked all but 1 damage, but I had the [Pummel](https://content.fabrary.net/cards/SBR020.webp) ready to go. That mean that he took 5 damage, lots his arsenal, _and_ lost a card in hand. With only 1 card left on his turn, he passed allowing me to swing back on mine with a full 4 card hand for game.
 
 Record: 2 - 0
 
 ## Round 3 vs Josh
+
+![Dorinthea](https://content.fabrary.net/cards/SDO001.webp)
 
 Josh got [Dorinthea](https://fabrary.net/decks/01KFWFXK3QM2XEVA08D5Y1R3CF) and he wasn't very happy about it. He said that he didn't really like playing warriors because the game play style did not make sense to him. Unlike other heroes, warriors almost always attack with their weapon and have few attack action cards in the deck. What they do have a lot of, thought, are _reaction_ cards which let them pump their weapon attacks after blocks are declared. There's not many defense reactions in Silver Age, so this puts a lot of pressure on the defending player to either overblock and risk wasting cards, or under block and get blown out.
 
@@ -40,6 +46,8 @@ Record: 3 - 0
 
 
 ## Round 4 vs Chaparro
+
+![Viserai](https://content.fabrary.net/cards/SVI001.webp)
 
 Chaparro was on [Viserai](https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP), which is by far my worst match up. I've played against a lot of runeblades online and almost always lose. Still, I figured a 3-1 record would be pretty good so I just held on to my cards and planned to block a lot. You only need AB1 vs runeblades, so I sided in the [new helmet](https://content.fabrary.net/cards/SBR006.webp). Why they just reprinted [Null Rune Hood](https://content.fabrary.net/cards/SKA004.webp) but with a class restriction, I'll never know.
 
